@@ -72,8 +72,8 @@ https://thiovan.github.io/simplified-appium/api-docs/
 
 Parameters used in this API docs:
 ```json
-{{ _.base_url }} => http://127.0.0.1:6790/wd/hub
-{{ _.session_id }} => hit session create API then you will retrieve sessionId (example: 02150934-8a1b-4233-b48c-d33c491fda79)
+_.base_url => http://127.0.0.1:6790/wd/hub
+_.session_id => hit session create API then you will retrieve sessionId (example: 02150934-8a1b-4233-b48c-d33c491fda79)
 :element => hit find element API then you will retrieve ELEMENT (example: 51fad69d-895b-4c11-8381-7ed85b314824)
 ```
 
