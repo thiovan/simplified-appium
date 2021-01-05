@@ -51,6 +51,8 @@ If get error: `more than one device and emulator`, follow this step first
 
 ### Run Test Automation
 #### Directly From Phone
+<img src="https://github.com/thiovan/simplified-appium/raw/master/demo/run-directly-from-phone.gif" width="700" />
+
 - Copy `play-store.py` from `example` directory to your phone internal memory
 - Install termux (https://play.google.com/store/apps/details?id=com.termux)
 - Open termux then run install python (`pkg install python`)
@@ -59,6 +61,8 @@ If get error: `more than one device and emulator`, follow this step first
 - Automation test will running
 
 #### Using PC
+<img src="https://github.com/thiovan/simplified-appium/raw/master/demo/run-using-pc.gif" width="700" />
+
 - Open `command prompt` then run this command `adb forward tcp:6790 tcp:6790`
 - Run command `python play-store.py`
 - Automation test will running
@@ -82,5 +86,6 @@ _.session_id => hit session create API then you will retrieve sessionId (example
 - List all available API
 - Add support for IOS apps
 - Example for another programming language
+- Find another alternative closing apps directly from phone when test automation ended
 
 If you want to complete task in this todo list, feel free to ask pull request
